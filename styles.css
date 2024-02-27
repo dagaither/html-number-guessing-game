@@ -1,11 +1,39 @@
 /* styles.css */
 body {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 300;
   text-align: center;
 }
 
 h1 {
-  font-weight: 400
+  background-color: rgba(254, 0, 0, 0.905);
+  width: 65vw;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.375);
+  padding: 5px;
+  font-weight: bold;
+  margin: 20px auto;
 }
 
+ul {
+  list-style-type: none;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.904);
+  width: 65vw;
+  padding: 5px;
+  border: 3px solid rgba(0, 0, 0, 0.713);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  height: 100vw;
+  margin: 50px auto;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.742);
+  border-radius: 25px;
+  background-image: url(https://qph.cf2.quoracdn.net/main-qimg-a0ca7be5d6520461eb37c8d6ef506092);
+}
